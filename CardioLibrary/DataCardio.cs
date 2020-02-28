@@ -7,7 +7,7 @@ namespace CardioLibrary
         public static int MisuraBattiti(int età)
         {
             if(età <= 100)
-            {
+            { 
                 int battiti = 220 - età;
                 return battiti;
             }
