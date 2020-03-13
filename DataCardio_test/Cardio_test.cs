@@ -12,7 +12,7 @@ namespace DataCardio_test
             Assert.AreEqual(204,risultato);
         }
         
-        [TestMethod]
+        [TestMethod] Failed to push to the remote repository.See the Output window for more details.
         public void TestCalcoloMaxBattitiPalestra()
         {
             double risultato = DataCardio.CalcoloMaxBattitiPalestra(16);
