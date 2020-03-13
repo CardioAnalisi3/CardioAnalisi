@@ -15,7 +15,7 @@ namespace CardioLibrary
             double maxbattiti = 0;
             double maxbattitipalestra = 0;
             maxbattiti = 220 - eta;
-            maxbattitipalestra= (90* maxbattiti)/100;
+            maxbattitipalestra = (90 * maxbattiti) / 100;
             return maxbattitipalestra;
         }
         public string Battiti_Riposo(double battiti)
