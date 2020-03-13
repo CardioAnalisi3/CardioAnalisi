@@ -16,7 +16,7 @@ namespace DataCardio_test
         public void TestCalcoloMaxBattitiPalestra()
         {
             double risultato = DataCardio.CalcoloMaxBattitiPalestra(16);
-            Assert.AreEqual(183.6,risultato);
+            Assert.AreEqual(183.6, risultato);
         }
 
         [TestMethod]
